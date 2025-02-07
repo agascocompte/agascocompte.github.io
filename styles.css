@@ -1,0 +1,102 @@
+
+html {
+    font-family: "Onest", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #d9d8ff80, #ffffffe6);
+    background-color: rgb(249, 250, 251);
+
+    body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        overscroll-behavior: none;
+
+        header {
+            display: flex;
+            position: fixed;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: .5rem;
+        
+            nav {
+                padding-left: .75rem;
+                padding-right: .75rem;
+                border-radius: 9999px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                font-weight: 500;
+                color: #4B5563;
+                font-size: .975rem;
+                line-height: 1.25rem;
+                background-color: transparent;
+                backdrop-filter: blur(0px);
+                transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+            
+                
+
+                a {
+                    padding: .5rem;
+                    display: block;
+                    position: relative;
+                    color: inherit;
+                    text-decoration: inherit;
+
+                    &:hover {
+                        color: rgb(59, 130, 246);
+                    }
+                }
+            }
+        }
+
+        main {
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            section {
+                scroll-margin: 5rem;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+
+                @media (min-width: 1024px) {
+                    max-width: 56rem;
+                }
+
+                @media (min-width: 768px) {
+                    max-width: 42rem;
+                    padding-top: 9rem;
+                    padding-bottom: 9rem;
+                }
+            }
+        }
+        
+        footer {
+            opacity: .8;
+            justify-content: center;
+            width: 100%;
+            display: flex;
+            margin-top: 4rem;
+            margin-bottom: 2.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+nav.scrolled {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
