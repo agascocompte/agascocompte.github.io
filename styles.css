@@ -83,7 +83,7 @@ html {
                 @media (min-width: 768px) {
                     max-width: 42rem;
                     padding-top: 9rem;
-                    padding-bottom: 9rem;
+                    padding-bottom: 6rem;
                 }
             }
         }
@@ -98,6 +98,17 @@ html {
             margin-left: auto;
             margin-right: auto;
         }
+    }
+
+    h2 {
+        color: #000c;
+        font-weight: 600;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        column-gap: .75rem;
+        align-items: center;
+        display: flex;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -244,5 +255,191 @@ nav.scrolled {
             display: block;
             fill: currentColor;
         }
+    }
+}
+
+/* Subsections */
+.sub-sections {
+    /*margin-top: 6rem;*/
+
+    section {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-top: 6rem;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            display: block;
+        }
+
+        ol {
+            margin-top: 4rem;
+            position: relative;
+            list-style: none;
+
+            .list-element {
+                @media (min-width: 768px) {
+                    gap: 2.5rem;
+                    grid-template-columns: repeat(5, minmax(0, 1fr));
+                }
+
+                padding-bottom: 3rem;
+                display: grid;
+                margin-left: 3rem;
+                margin-right: 3rem;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    height: 100%;
+                    left: -35px;
+                    top: 0;
+                    background-color: #0003;
+                    position: absolute;
+                    width: 2px;
+                }
+
+                .list-element-left {
+                    @media (min-width: 768px) {
+                        grid-column: span 2 / span 2;
+                    }
+
+                    padding-bottom: 3rem;
+                    position: relative;
+
+                    .sticky-top {
+                        position: sticky;
+                        top: 0;
+
+                        .timeline-marker {
+                            width: 0.7rem;
+                            height: 0.7rem;
+                            background-color: rgb(67, 119, 210);
+                            border-radius: 9999px;
+                            position: absolute;
+                            top: 20px;
+                            left: -40px;
+                        }
+
+                        h3 {
+                            color: rgb(67, 119, 210);
+                            font-weight: 700;
+                            font-size: 1.25rem;
+                            line-height: 1.75rem;
+                            margin: 0;
+                        }
+
+                        h4 {
+                            color: rgb(75 85 99);
+                            font-weight: 600;
+                            font-size: 1.25rem;
+                            line-height: 1.75rem;
+                            margin: 0;
+                        }
+
+                        time {
+                            color: #4b5563cc;
+                            font-size: .875rem;
+                            line-height: 1.25rem;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .list-element-right {
+                    @media (min-width: 768px) {
+                        grid-column: span 3 / span 3;
+                    }
+
+                    padding-bottom: 1rem;
+                    color: rgb(75 85 99);
+                    gap: .5rem;
+                    flex-direction: column;
+                    position: relative;
+
+                    a {
+                        color: rgb(58, 58, 234);
+                        font-weight: 500;
+                        font-size: 1.125rem;
+                        line-height: 1.75rem;
+                        align-items: center;
+                        display: flex;
+                        text-decoration: inherit;
+                        margin-top: 5px;
+
+                        &:hover {
+                            color: rgb(23, 71, 154);
+                        }
+
+                        &:hover svg {
+                            fill: rgb(23, 71, 154);
+                        }
+                
+                        svg {
+                            width: 2rem;
+                            height: 1.3rem;
+                            display: block;
+                            fill: currentColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* About */
+
+.about-article {
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+
+    color: rgb(55 65 81);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .about-text {
+        @media (min-width: 768px) {
+            order: 1;
+        }
+
+        text-wrap: pretty;
+
+        p {
+            margin-bottom: 1rem;
+
+            strong {
+                color: rgb(58, 58, 234);
+                font-weight: 600;
+            }
+        }
+    }
+
+    .about-img {
+        @media (min-width: 1024px) {
+            padding: .5rem;
+            width: 16rem;
+        }
+
+        @media (min-width: 768px) {
+            order: 2;
+        }
+
+        object-position: 50% 50%;        
+        padding: .25rem;
+        object-fit: cover;
+        background-color: #0003;
+        border-radius: 1rem;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        order: 1;
+        max-width: 100%;
+        display: block;
+        transform: rotate(3deg);
     }
 }
