@@ -17,7 +17,7 @@ nav.scrolled {
 }
 
 .bg-flutter {
-    background-color: #02569B;
+    background-color: #3d719b;
 }
 
 .bg-p5 {
@@ -34,4 +34,32 @@ nav.scrolled {
 
 .bg-libgdx {
     background-color: #5b5858;
+}
+
+.bg-pygame {
+    background-color: rgb(92, 212, 59);
+}
+
+.bg-pygbag {
+    background-color: #002d01;
+}
+
+.bg-unity {
+    background-color: #000000;
+}
+
+.bg-junit {
+    background-color: #87928d;
+}
+
+.bg-firebase {
+    background-color: #303030;
+}
+
+.bg-tensorflow {
+    background-color: #d45d02;
+}
+
+.bg-yolo11 {
+    background-color: rgb(145, 45, 186);
 }
