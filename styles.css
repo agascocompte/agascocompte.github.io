@@ -63,3 +63,11 @@ nav.scrolled {
 .bg-yolo11 {
     background-color: rgb(145, 45, 186);
 }
+
+.bg-openai {
+    background-color: #cccccc;
+}
+
+.bg-podman {
+    background-color: rgb(71, 150, 240)
+}
