@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>SpenDuo · Política de privacidad / Privacy Policy</title>
+    <meta name="description" content="Política de privacidad de SpenDuo. Privacy policy of SpenDuo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body class="relative text-black dark:text-white">
+    <div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-gray-50 dark:bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+    <main class="px-4 py-12 mx-auto container lg:max-w-3xl md:max-w-2xl">
+        <a href="./" class="flex items-center gap-3 mb-8 w-fit">
+            <img src="icon.png" alt="" class="w-12 h-12 rounded-xl shadow-md object-cover">
+            <span class="text-xl font-semibold text-gray-800 dark:text-white">SpenDuo</span>
+        </a>
+        <nav class="flex gap-3 mb-10 text-sm">
+            <a href="#es" class="px-3 py-1 rounded-full border border-gray-300 dark:border-gray-600 hover:bg-gray-900 hover:text-white dark:hover:bg-gray-100 dark:hover:text-black transition">Español</a>
+            <a href="#en" class="px-3 py-1 rounded-full border border-gray-300 dark:border-gray-600 hover:bg-gray-900 hover:text-white dark:hover:bg-gray-100 dark:hover:text-black transition">English</a>
+        </nav>
+
+        <article id="es" class="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed [&_h1]:text-3xl [&_h1]:font-bold [&_h1]:text-gray-900 dark:[&_h1]:text-white [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-gray-900 dark:[&_h2]:text-white [&_h2]:pt-4 [&_a]:text-[rgb(58,58,234)] [&_a]:underline [&_th]:text-left [&_th]:p-2 [&_td]:p-2 [&_td]:align-top [&_tr]:border-b [&_tr]:border-gray-200 dark:[&_tr]:border-gray-700">
+            <h1>Política de privacidad</h1>
+            <p class="text-sm">Última actualización: 14 de octubre de 2026</p>
+
+            <h2>Quién es el responsable</h2>
+            <p>SpenDuo (“la app”) es una app para llevar gastos compartidos desarrollada por <strong>Arturo Gascó</strong>, con residencia en Castellón de la Plana (España). Contacto: <a href="mailto:cidenaris@gmail.com">cidenaris@gmail.com</a>.</p>
+
+            <h2>Qué datos guarda la app</h2>
+            <p>Para que puedas compartir gastos con otras personas y verlos en varios dispositivos, SpenDuo necesita una cuenta y guarda tus datos en la nube (Google Firebase):</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Cuenta:</strong> tu nombre, tu email y un identificador de usuario, que obtenemos al iniciar sesión con Google o con Apple. Nunca vemos tu contraseña. Si usas “Ocultar mi email” de Apple, solo recibimos la dirección de reenvío que te asigna Apple.</li>
+                <li><strong>Lo que apuntas:</strong> grupos (nombre, moneda y miembros), gastos (importe, moneda, categoría, fecha, descripción y quién lo pagó), categorías y gastos recurrentes.</li>
+                <li><strong>Ajustes:</strong> idioma, grupo activo y estado de Premium.</li>
+                <li><strong>Compra de Premium:</strong> para que una compra solo se use en una cuenta, guardamos un identificador cifrado (hash) de la compra junto con tu identificador de usuario, tu email, el producto comprado y la fecha. Si alguien intenta activar esa misma compra con otra cuenta, la app le muestra el email de la cuenta que ya la tiene para que sepa con cuál entrar.</li>
+            </ul>
+            <p>Algunas preferencias del dispositivo, como el tema claro u oscuro, se guardan solo en tu móvil.</p>
+
+            <h2>Quién puede ver tus datos</h2>
+            <p>Los <strong>miembros de tus grupos</strong> ven tu nombre y todos los gastos, categorías y gastos recurrentes del grupo, y pueden acceder a tu email. Las personas que no están en tus grupos no pueden verlos. Cualquiera que tenga el ID de un grupo puede unirse a él, así que compártelo solo con quien quieras.</p>
+            <p>No vendemos tus datos ni los usamos para nada distinto de hacer funcionar la app.</p>
+
+            <h2>Servicios de terceros</h2>
+            <p>La app usa estos servicios, que pueden tratar datos según sus propias políticas de privacidad:</p>
+            <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead><tr><th>Servicio</th><th>Para qué</th><th>Datos que puede tratar</th></tr></thead>
+                <tbody>
+                    <tr><td>Google Firebase (Authentication y Cloud Firestore)</td><td>Iniciar sesión y guardar y sincronizar tus datos.</td><td>Los datos de la cuenta y todo lo que apuntas, descritos arriba, y tu dirección IP.</td></tr>
+                    <tr><td>Inicio de sesión con Google / con Apple</td><td>Identificarte sin crear una contraseña.</td><td>Nombre, email e identificador de la cuenta.</td></tr>
+                    <tr><td>Google AdMob</td><td>Mostrar anuncios en la lista de gastos y, de vez en cuando, a pantalla completa. No se muestran si tienes Premium.</td><td>Identificador de publicidad (si lo permites), dirección IP, información del dispositivo y de la app, interacción con los anuncios.</td></tr>
+                    <tr><td>Apple App Store / Google Play</td><td>Gestionar la compra de Premium y restaurarla.</td><td>Datos de la compra. Los gestionan Apple y Google; nunca vemos tus datos de pago.</td></tr>
+                    <tr><td>ExchangeRate-API</td><td>Obtener tipos de cambio para convertir gastos en otras monedas.</td><td>La moneda consultada y tu dirección IP. No se envía ningún gasto.</td></tr>
+                </tbody>
+            </table>
+            </div>
+            <p>Más información: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad de Google</a> · <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidad en Firebase</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Cómo usa Google los datos de las apps asociadas</a> · <a href="https://www.apple.com/es/legal/privacy/" target="_blank" rel="noopener">Política de privacidad de Apple</a> · <a href="https://www.exchangerate-api.com/terms" target="_blank" rel="noopener">ExchangeRate-API</a>.</p>
+
+            <h2>Dónde se guardan</h2>
+            <p>Firebase es un servicio de Google y los datos pueden guardarse en servidores fuera del Espacio Económico Europeo. Google aplica las cláusulas contractuales tipo de la Comisión Europea y está adherido al Marco de Privacidad de Datos UE-EE. UU.</p>
+
+            <h2>Base legal</h2>
+            <p>Guardar tu cuenta y tus gastos es necesario para prestarte el servicio que pides al usar la app (ejecución del contrato). La compra de Premium se basa en la ejecución del contrato de compra. Los anuncios personalizados se basan en tu <strong>consentimiento</strong>.</p>
+
+            <h2>Cuánto tiempo los guardamos</h2>
+            <p>Mientras tengas la cuenta. Al eliminarla se borran tus datos como se explica más abajo. Las copias de seguridad de Firebase pueden tardar unos días más en desaparecer.</p>
+
+            <h2>Tus opciones sobre los anuncios</h2>
+            <p>Puedes restablecer tu identificador de publicidad o desactivar los anuncios personalizados en los ajustes de tu dispositivo. En iPhone, la app no te pide permiso de seguimiento, así que no accede a tu identificador de publicidad. Con Premium no se muestran anuncios.</p>
+
+            <h2>Menores</h2>
+            <p>La app no está dirigida a menores de 13 años y no recogemos a sabiendas datos personales suyos. Si crees que un menor nos ha facilitado datos, escríbenos y los borraremos.</p>
+
+            <h2>Tus derechos</h2>
+            <p>Tienes derecho a acceder a tus datos, rectificarlos o suprimirlos, oponerte a su tratamiento o limitarlo, y a la portabilidad. Puedes cambiar o borrar tus gastos desde la app en cualquier momento; para lo demás, escríbenos a <a href="mailto:cidenaris@gmail.com">cidenaris@gmail.com</a>. También puedes reclamar ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+
+            <h2>Borrar tu cuenta y tus datos</h2>
+            <p>En la app, ve a <strong>Ajustes → Eliminar cuenta</strong>. Se borran tu cuenta y tu perfil, los grupos en los que eras el único miembro con todo su contenido, y el vínculo de tu compra de Premium. En los grupos compartidos sales del grupo y los gastos que apuntaste se quedan para los demás miembros, sin tu nombre. Si no puedes entrar en la app, <a href="./#borrar-cuenta">mira cómo pedirlo por email</a>.</p>
+
+            <h2>Cambios</h2>
+            <p>Podemos actualizar esta política. La fecha de arriba indica la última versión.</p>
+        </article>
+
+        <hr class="my-16 border-gray-300 dark:border-gray-700">
+
+        <article id="en" lang="en" class="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed [&_h1]:text-3xl [&_h1]:font-bold [&_h1]:text-gray-900 dark:[&_h1]:text-white [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-gray-900 dark:[&_h2]:text-white [&_h2]:pt-4 [&_a]:text-[rgb(58,58,234)] [&_a]:underline [&_th]:text-left [&_th]:p-2 [&_td]:p-2 [&_td]:align-top [&_tr]:border-b [&_tr]:border-gray-200 dark:[&_tr]:border-gray-700">
+            <h1>Privacy Policy</h1>
+            <p class="text-sm">Last updated: October 14, 2026</p>
+
+            <h2>Who we are</h2>
+            <p>SpenDuo (“the app”) is a shared expenses app developed by <strong>Arturo Gascó</strong>, based in Castellón de la Plana, Spain. Contact: <a href="mailto:cidenaris@gmail.com">cidenaris@gmail.com</a>.</p>
+
+            <h2>What the app stores</h2>
+            <p>So you can share expenses with other people and see them on several devices, SpenDuo needs an account and stores your data in the cloud (Google Firebase):</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Account:</strong> your name, email and a user ID, which we get when you sign in with Google or Apple. We never see your password. If you use Apple's “Hide My Email”, we only receive the relay address Apple gives you.</li>
+                <li><strong>What you add:</strong> groups (name, currency and members), expenses (amount, currency, category, date, description and who paid), categories and recurring expenses.</li>
+                <li><strong>Settings:</strong> language, active group and Premium status.</li>
+                <li><strong>Premium purchase:</strong> so a purchase is only used on one account, we store an encrypted identifier (hash) of the purchase together with your user ID, your email, the product bought and the date. If someone tries to activate the same purchase with another account, the app shows them the email of the account that already has it, so they know which one to sign in with.</li>
+            </ul>
+            <p>Some device preferences, such as the light or dark theme, are stored only on your phone.</p>
+
+            <h2>Who can see your data</h2>
+            <p><strong>Members of your groups</strong> see your name and all of the group's expenses, categories and recurring expenses, and can access your email. People outside your groups cannot see them. Anyone who has a group's ID can join it, so only share it with people you want in the group.</p>
+            <p>We don't sell your data or use it for anything other than running the app.</p>
+
+            <h2>Third-party services</h2>
+            <p>The app uses these services, which may process data under their own privacy policies:</p>
+            <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead><tr><th>Service</th><th>Purpose</th><th>Data it may process</th></tr></thead>
+                <tbody>
+                    <tr><td>Google Firebase (Authentication and Cloud Firestore)</td><td>Signing in and storing and syncing your data.</td><td>The account data and everything you add, described above, and your IP address.</td></tr>
+                    <tr><td>Sign in with Google / with Apple</td><td>Identifying you without creating a password.</td><td>Name, email and account ID.</td></tr>
+                    <tr><td>Google AdMob</td><td>Showing ads in the expenses list and, occasionally, full-screen ads. Not shown with Premium.</td><td>Advertising ID (if you allow it), IP address, device and app information, ad interactions.</td></tr>
+                    <tr><td>Apple App Store / Google Play</td><td>Processing and restoring the Premium purchase.</td><td>Purchase details. Handled by Apple and Google; we never see your payment data.</td></tr>
+                    <tr><td>ExchangeRate-API</td><td>Getting exchange rates to convert expenses in other currencies.</td><td>The currency requested and your IP address. No expenses are sent.</td></tr>
+                </tbody>
+            </table>
+            </div>
+            <p>More information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> · <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy in Firebase</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data from partner apps</a> · <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a> · <a href="https://www.exchangerate-api.com/terms" target="_blank" rel="noopener">ExchangeRate-API</a>.</p>
+
+            <h2>Where it is stored</h2>
+            <p>Firebase is a Google service and data may be stored on servers outside the European Economic Area. Google applies the European Commission's standard contractual clauses and participates in the EU-U.S. Data Privacy Framework.</p>
+
+            <h2>Legal basis</h2>
+            <p>Storing your account and expenses is necessary to provide the service you ask for when using the app (performance of a contract). The Premium purchase is based on performing the purchase contract. Personalised ads are based on your <strong>consent</strong>.</p>
+
+            <h2>How long we keep it</h2>
+            <p>For as long as you have an account. When you delete it, your data is deleted as explained below. Firebase backups may take a few more days to disappear.</p>
+
+            <h2>Your ad choices</h2>
+            <p>You can reset your advertising ID or opt out of personalised ads in your device settings. On iPhone, the app does not ask for tracking permission, so it does not access your advertising ID. With Premium, no ads are shown.</p>
+
+            <h2>Children</h2>
+            <p>The app is not directed at children under 13, and we do not knowingly collect personal data from them. If you believe a child has given us data, contact us and we will delete it.</p>
+
+            <h2>Your rights</h2>
+            <p>You have the right to access, correct or delete your data, to object to or restrict its processing, and to data portability. You can edit or delete your expenses in the app at any time; for anything else, write to <a href="mailto:cidenaris@gmail.com">cidenaris@gmail.com</a>. You may also complain to your data protection authority (in Spain, the <a href="https://www.aepd.es" target="_blank" rel="noopener">AEPD</a>).</p>
+
+            <h2>Deleting your account and data</h2>
+            <p>In the app, go to <strong>Settings → Delete account</strong>. This deletes your account and profile, the groups where you were the only member with all their content, and the link to your Premium purchase. In shared groups you leave the group and the expenses you added stay for the other members, without your name. If you can't sign in to the app, <a href="./#delete-account">see how to request it by email</a>.</p>
+
+            <h2>Changes</h2>
+            <p>We may update this policy. The date at the top shows the latest version.</p>
+        </article>
+
+        <footer class="mt-16 text-sm text-gray-500 flex flex-wrap gap-4">
+            <a href="./" class="hover:underline">Soporte / Support</a>
+            <a href="legal.html" class="hover:underline">Aviso legal / Legal notice</a>
+        </footer>
+    </main>
+</body>
+</html>

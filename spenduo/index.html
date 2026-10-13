@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>SpenDuo · Soporte / Support</title>
+    <meta name="description" content="SpenDuo: gastos compartidos en pareja, en familia o en el piso. Soporte y contacto. Shared expenses for couples, families and flatmates. Support and contact.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body class="relative text-black dark:text-white">
+    <div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-gray-50 dark:bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+    <main class="px-4 py-16 mx-auto container lg:max-w-3xl md:max-w-2xl">
+        <header class="flex items-center gap-5 mb-10">
+            <img src="icon.png" alt="SpenDuo" class="w-24 h-24 rounded-3xl shadow-lg object-cover">
+            <div>
+                <h1 class="text-4xl font-bold tracking-tight text-gray-800 dark:text-white">SpenDuo</h1>
+                <p class="mt-2 text-lg text-gray-600 dark:text-gray-300">Gastos compartidos, claros y sin líos.<br><span lang="en" class="text-gray-500">Shared expenses, clear and simple.</span></p>
+            </div>
+        </header>
+
+        <section class="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+            <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Soporte</h2>
+            <p>¿Tienes un problema, una duda o una idea? Escríbenos a <a class="text-[rgb(58,58,234)] underline" href="mailto:cidenaris@gmail.com?subject=SpenDuo">cidenaris@gmail.com</a>. Si puedes, indica tu modelo de móvil y la versión de la app.</p>
+            <h3 class="pt-2 font-semibold text-gray-900 dark:text-white">Preguntas frecuentes</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>¿Cómo invito a otra persona a mi grupo?</strong> En Ajustes, copia el ID del grupo y envíaselo. La otra persona, con su propia cuenta, va a “Crear o unirse a un grupo” → “Unirse” y lo pega.</li>
+                <li><strong>¿Quién ve mis gastos?</strong> Todos los miembros del grupo ven todos sus gastos, categorías y gastos recurrentes, y tu nombre. Nadie fuera del grupo puede verlos.</li>
+                <li><strong>He cambiado de móvil o reinstalado la app y no tengo Premium.</strong> Inicia sesión con la misma cuenta de SpenDuo con la que activaste Premium y ve a Premium → Restaurar compra. Premium queda ligado a esa cuenta.</li>
+                <li><strong>La app dice que mi compra pertenece a otra cuenta.</strong> Cada compra de Premium solo se puede usar en una cuenta de SpenDuo. Inicia sesión con la cuenta con la que la activaste. Si ya no tienes acceso a ella, escríbenos.</li>
+                <li><strong>¿Cómo funcionan los gastos en otra moneda?</strong> Se convierten a la moneda del grupo con tipos de cambio de ExchangeRate-API. Son aproximados y pueden no coincidir exactamente con lo que te cobra tu banco.</li>
+                <li><strong>¿Cómo funcionan los gastos recurrentes?</strong> Indicas el importe y cada cuánto se repite (por ejemplo, el alquiler o una suscripción) y la app los apunta sola en su fecha. Puedes pausarlos o eliminarlos cuando quieras.</li>
+                <li><strong>Quiero un reembolso.</strong> Los pagos los gestionan Apple y Google: pídelo desde <a class="text-[rgb(58,58,234)] underline" href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> o desde tu historial de pedidos de Google Play.</li>
+            </ul>
+
+            <h3 id="borrar-cuenta" class="pt-2 font-semibold text-gray-900 dark:text-white">Borrar tu cuenta y tus datos</h3>
+            <p>Desde la app: <strong>Ajustes → Eliminar cuenta</strong>. Se borran al momento:</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Tu cuenta y tu perfil (nombre, email y ajustes).</li>
+                <li>Los grupos en los que eras el único miembro, con todos sus gastos, categorías y gastos recurrentes.</li>
+                <li>El vínculo entre tu compra de Premium y tu cuenta, para que puedas volver a activarla con otra.</li>
+            </ul>
+            <p>En los grupos que compartes con otras personas, sales del grupo y los gastos que apuntaste se quedan para el resto de miembros, pero sin tu nombre. Si no puedes entrar en la app, escríbenos a <a class="text-[rgb(58,58,234)] underline" href="mailto:cidenaris@gmail.com?subject=SpenDuo%20-%20Borrar%20cuenta">cidenaris@gmail.com</a> desde el email de tu cuenta y la borraremos en un plazo máximo de 30 días.</p>
+        </section>
+
+        <hr class="my-12 border-gray-300 dark:border-gray-700">
+
+        <section lang="en" class="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+            <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Support</h2>
+            <p>Got a problem, a question or an idea? Write to <a class="text-[rgb(58,58,234)] underline" href="mailto:cidenaris@gmail.com?subject=SpenDuo">cidenaris@gmail.com</a>. If you can, include your phone model and the app version.</p>
+            <h3 class="pt-2 font-semibold text-gray-900 dark:text-white">FAQ</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>How do I invite someone to my group?</strong> In Settings, copy the group ID and send it to them. They sign in with their own account, go to “Create or join a group” → “Join” and paste it.</li>
+                <li><strong>Who can see my expenses?</strong> Every member of a group sees all of its expenses, categories and recurring expenses, and your name. Nobody outside the group can see them.</li>
+                <li><strong>I changed phones or reinstalled the app and Premium is gone.</strong> Sign in with the same SpenDuo account you activated Premium with and go to Premium → Restore purchase. Premium is linked to that account.</li>
+                <li><strong>The app says my purchase belongs to another account.</strong> Each Premium purchase can only be used on one SpenDuo account. Sign in with the account you activated it with. If you no longer have access to it, contact us.</li>
+                <li><strong>How do expenses in another currency work?</strong> They are converted to the group's currency using exchange rates from ExchangeRate-API. Rates are approximate and may not match exactly what your bank charges.</li>
+                <li><strong>How do recurring expenses work?</strong> You enter the amount and how often it repeats (rent or a subscription, for example) and the app adds it on its date. You can pause or delete them at any time.</li>
+                <li><strong>I want a refund.</strong> Payments are handled by Apple and Google: request it at <a class="text-[rgb(58,58,234)] underline" href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> or from your Google Play order history.</li>
+            </ul>
+
+            <h3 id="delete-account" class="pt-2 font-semibold text-gray-900 dark:text-white">Deleting your account and data</h3>
+            <p>In the app: <strong>Settings → Delete account</strong>. This immediately deletes:</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Your account and profile (name, email and settings).</li>
+                <li>Groups where you were the only member, with all their expenses, categories and recurring expenses.</li>
+                <li>The link between your Premium purchase and your account, so you can activate it again with another one.</li>
+            </ul>
+            <p>In groups you share with others, you leave the group and the expenses you added stay for the other members, without your name. If you can't sign in to the app, email <a class="text-[rgb(58,58,234)] underline" href="mailto:cidenaris@gmail.com?subject=SpenDuo%20-%20Delete%20account">cidenaris@gmail.com</a> from your account's email address and we will delete it within 30 days.</p>
+        </section>
+
+        <footer class="mt-16 text-sm text-gray-500 flex flex-wrap gap-4">
+            <a href="privacy.html" class="hover:underline">Política de privacidad / Privacy Policy</a>
+            <a href="legal.html" class="hover:underline">Aviso legal / Legal Notice</a>
+            <a href="/" class="hover:underline">Arturo Gascó</a>
+        </footer>
+    </main>
+</body>
+</html>
